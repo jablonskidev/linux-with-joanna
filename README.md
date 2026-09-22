@@ -1,2 +1,3 @@
-# linux-with-joanna
-Exploring Linux and writing about it
+# Linux With Joanna
+
+I'm exploring Linux and taking you with me.
