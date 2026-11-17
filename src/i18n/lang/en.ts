@@ -39,6 +39,8 @@ export default {
     allRightsReserved: "All rights reserved.",
   },
   pages: {
+    emptyPosts: "No posts yet.",
+    emptyTags: "Tags will appear when posts are published.",
     tagTitle: "Tag",
     tagDesc: "All the articles with the tag",
 
