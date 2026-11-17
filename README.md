@@ -28,3 +28,11 @@ Set the publication date and timezone offset for your post. The site displays da
 This repository is public: draft files and committed history are readable even when a post is hidden from the website. Do not commit credentials or other sensitive information.
 
 Edit `src/content/pages/about.md` for the About page and `astro-paper.config.ts` for site details and profile links.
+
+## Licensing
+
+The AstroPaper theme and site code are licensed under the [MIT License](./LICENSE).
+
+Joanna Jablonski's original written content, including blog posts and pages, is not covered by the MIT license. Copyright (c) 2026 Joanna Jablonski. All rights reserved.
+
+Third-party material remains subject to its respective licenses.
