@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://jablonskidev.github.io/linux-with-joanna/",
+    url: "https://linuxwithjoanna.com/",
     title: "Linux With Joanna",
     description: "How does Linux really work? Let's find out together.",
     author: "Joanna Jablonski",
