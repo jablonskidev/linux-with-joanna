@@ -38,6 +38,8 @@ export interface UIStrings {
     allRightsReserved: string;
   };
   pages: {
+    emptyPosts: string;
+    emptyTags: string;
     tagTitle: string;
     tagDesc: string;
 
