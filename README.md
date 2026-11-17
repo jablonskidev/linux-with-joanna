@@ -4,7 +4,7 @@ How does Linux really work? Let's find out together.
 
 A personal Linux diary by Joanna Jablonski, built with [AstroPaper](https://github.com/satnaing/astro-paper).
 
-[Read the blog](https://jablonskidev.github.io/linux-with-joanna/)
+[Read the blog](https://linuxwithjoanna.com/)
 
 ## Publishing in the browser
 
