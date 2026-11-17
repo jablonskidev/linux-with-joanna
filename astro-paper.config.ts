@@ -3,8 +3,8 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://jablonskidev.github.io/linux-with-joanna/",
-    title: "Linux with Joanna",
-    description: "Exploring Linux and taking you with me",
+    title: "Linux With Joanna",
+    description: "How does Linux really work? Let's find out together.",
     author: "Joanna Jablonski",
     profile: "https://jojab.dev",
     ogImage: "og.png",
