@@ -1,6 +1,6 @@
-# Linux with Joanna
+# Linux With Joanna
 
-Exploring Linux and taking you with me.
+How does Linux really work? Let's find out together.
 
 A personal Linux diary by Joanna Jablonski, built with [AstroPaper](https://github.com/satnaing/astro-paper).
 
