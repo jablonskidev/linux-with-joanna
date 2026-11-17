@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
-    ogImage: "default-og.jpg",
+    url: "https://jablonskidev.github.io/linux-with-joanna/",
+    title: "Linux with Joanna",
+    description: "Exploring Linux and taking you with me",
+    author: "Joanna Jablonski",
+    profile: "https://jojab.dev",
+    ogImage: "og.png",
     lang: "en",
-    timezone: "Asia/Bangkok",
+    timezone: "America/Vancouver",
     dir: "ltr",
   },
   posts: {
@@ -23,16 +23,15 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/jablonskidev/linux-with-joanna/edit/main/",
     },
     search: "pagefind",
     toc: true,
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "website", url: "https://jojab.dev", linkTitle: "Joanna Jablonski’s portfolio" },
+    { name: "github", url: "https://github.com/jablonskidev" },
+    { name: "linkedin", url: "https://linkedin.com/in/joanna-jablonski" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
