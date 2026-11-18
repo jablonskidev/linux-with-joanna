@@ -46,30 +46,30 @@ const isActive = (path: string) => {
   class="app-layout flex flex-col items-center justify-between sm:flex-row"
 >
   <div
-    class="border-border bg-background relative flex w-full items-baseline justify-between border-b py-4 sm:items-center sm:py-6"
+    class="border-border bg-background grid w-full grid-cols-[minmax(0,1fr)_auto] items-start justify-between gap-x-3 border-b py-4 sm:flex sm:items-center sm:gap-x-0 sm:py-6"
   >
     <a
       href={getRelativeLocaleUrl(locale, "")}
-      class="absolute max-w-[calc(100%-3rem)] truncate py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:max-w-none sm:text-2xl sm:leading-none"
+      class="py-1 text-xl leading-8 font-semibold sm:my-auto sm:text-2xl sm:leading-none sm:whitespace-nowrap"
     >
       {site.title}
     </a>
+    <button
+      id="menu-btn"
+      class="focus-outline p-2 sm:hidden"
+      aria-label={t.a11y.openMenu}
+      aria-expanded="false"
+      aria-controls="menu-items"
+      data-label-open={t.a11y.openMenu}
+      data-label-close={t.a11y.closeMenu}
+    >
+      <IconX id="close-icon" class="hidden" />
+      <IconMenuDeep id="menu-icon" />
+    </button>
     <nav
       id="nav-menu"
-      class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0"
+      class="col-span-2 flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0"
     >
-      <button
-        id="menu-btn"
-        class="focus-outline self-end p-2 sm:hidden"
-        aria-label={t.a11y.openMenu}
-        aria-expanded="false"
-        aria-controls="menu-items"
-        data-label-open={t.a11y.openMenu}
-        data-label-close={t.a11y.closeMenu}
-      >
-        <IconX id="close-icon" class="hidden" />
-        <IconMenuDeep id="menu-icon" />
-      </button>
       <ul
         id="menu-items"
         class="[&>li>a]:hover:text-accent mt-4 hidden w-44 grid-cols-2 place-content-center gap-2 sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0 sm:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium sm:[&>li>a]:px-2 sm:[&>li>a]:py-1"
